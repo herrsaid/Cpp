@@ -110,7 +110,6 @@ void    Account::_displayTimestamp()
     printdate(time->tm_min);
     printdate(time->tm_sec);
     std::cout << "] ";
-
 }
 
 bool	Account::makeWithdrawal( int withdrawal )
